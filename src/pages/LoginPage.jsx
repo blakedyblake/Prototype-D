@@ -8,8 +8,8 @@ const LoginPage = ()=>{
             <section className="midmain">
                 <h1>Welcome Back!</h1>
                 <h3>Where do you want to begin</h3>
-                <button className="link"></button>
-                <button className="link"></button>
+                <button className="link">View My Memories</button>
+                <button className="link">Games For Kids</button>
 
             </section>
         </>
