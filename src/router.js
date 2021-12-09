@@ -6,6 +6,6 @@ import MemoriesHome from "./pages/MemoriesHome";
 export default (
     <Switch>
         <Route exact path='/'component={LoginPage}/>
-        <Route path='view-memories' component={MemoriesHome}></Route>
+        <Route path='/view-memories' component={MemoriesHome}></Route>
     </Switch>
 )
