@@ -4,7 +4,7 @@ import UpperTool from "../components/UpperTool";
 
 const MemoriesHome = ()=>{
     return(
-        <>
+        <section className='pages'>
             <UpperTool/>
             <section className="midmain 2">
                 <h3>Where do you want to get started?</h3>
@@ -12,7 +12,7 @@ const MemoriesHome = ()=>{
                 <button className="link">View Phone Now</button>
             </section>
 
-        </>
+        </section>
     )
 }
 
