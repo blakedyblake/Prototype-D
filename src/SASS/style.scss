@@ -2,6 +2,7 @@ $main-color: #142035;
 $opacity:0.8;
 $text-default:white;
 $base-width:400px;
+$standard-radius:15px;
 body{
     color:$text-default;
     background: no-repeat;
@@ -47,7 +48,7 @@ body{
     width:$base-width;
     height:600px;
     margin-top: 30px;
-    border-radius: 15px;
+    border-radius: $standard-radius;
     h3{
         margin-bottom:0px;
     }
@@ -56,4 +57,22 @@ body{
         width:200px;
         margin-top: 50px;
     }
+}
+
+.midmain#2 {
+    h3{
+        margin-top: 190px;
+    }
+    button{
+        margin-top: 60px;
+    }
+}
+
+.topper{
+    margin-top: 30px;
+    background-color: $main-color;
+    opacity: $opacity;
+    width:$base-width;
+    height:175px;
+    border-radius: $standard-radius;
 }

@@ -7,7 +7,7 @@ const MemoriesHome = ()=>{
     return(
         <section className='pages'>
             <UpperTool/>
-            <section className="midmain 2">
+            <section className="midmain" id="2">
                 <h3>Where do you want to get started?</h3>
                 <Link to='/sorter'><button className="link">Sort Through Photos</button><br/></Link>
                 <Link to='/select'><button className="link">View Phone Now</button></Link>
