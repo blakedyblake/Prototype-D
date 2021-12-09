@@ -1,4 +1,5 @@
 import react from "react";
+import { Link } from "react-router-dom";
 
 import UpperTool from "../components/UpperTool";
 
@@ -8,8 +9,8 @@ const MemoriesHome = ()=>{
             <UpperTool/>
             <section className="midmain 2">
                 <h3>Where do you want to get started?</h3>
-                <button className="link">Sort Through Photos</button><br/>
-                <button className="link">View Phone Now</button>
+                <Link to='/sorter'><button className="link">Sort Through Photos</button><br/></Link>
+                <Link to='/select'><button className="link">View Phone Now</button></Link>
             </section>
 
         </section>
