@@ -1,6 +1,6 @@
 import react from "react";
 import UpperTool from "../components/UpperTool";
-
+import { Link } from "react-router-dom";
 const LoginPage = ()=>{
     return(
         <section className='pages'>
@@ -8,7 +8,7 @@ const LoginPage = ()=>{
             <section className="midmain">
                 <h1>Welcome Back!</h1>
                 <h3>Where do you want to begin?</h3>
-                <button className="link">View My Memories</button><br/>
+                <Link to='/view-memories'><button className="link">View My Memories</button><br/></Link>
                 <button className="link">Games For Kids</button>
 
             </section>
